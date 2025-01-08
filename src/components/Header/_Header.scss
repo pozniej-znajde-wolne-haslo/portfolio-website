@@ -1,0 +1,26 @@
+header {
+  height: 80px;
+  padding: 0 30px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    border: 1px solid rgba(221, 228, 220, 0.7);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 3px;
+    padding: 4px 25px;
+
+    ul {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+}
