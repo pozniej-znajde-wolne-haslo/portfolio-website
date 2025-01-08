@@ -1,0 +1,15 @@
+.container {
+  background: url('../../../background.jpg') center/cover no-repeat;
+  height: 100vh;
+  padding: 1rem;
+
+  &-layer {
+    /* variable */
+    background: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+  }
+}
