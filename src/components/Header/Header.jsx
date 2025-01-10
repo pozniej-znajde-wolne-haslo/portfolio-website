@@ -3,11 +3,14 @@ import './_Header.scss';
 export default function Header() {
   return (
     <header>
-      <div className="logo">Ania Rafeld</div>
+      <div className="logo">
+        <span>ania</span>
+        <span>rafeld</span>
+      </div>
       <nav className="navbar">
         <ul>
           <li>
-            <a href="">works</a>
+            <a href="">projects</a>
           </li>
           <li>
             <a href="">about</a>
