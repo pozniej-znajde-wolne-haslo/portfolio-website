@@ -1,4 +1,3 @@
-/* @import 'config'; */
 @font-face {
   font-family: 'Bruno Ace';
   src: url('./assets/fonts/Bruno_Ace/BrunoAce-Regular.ttf');
@@ -25,24 +24,8 @@ html,
 body {
   scroll-behavior: smooth;
   scrollbar-width: none;
-  /* width: calc(100% - 2rem);
-  max-height: calc(100% - 2rem); */
-  margin: auto;
-  /*   color: $primary-color; */
+  /* different color now? */
   color: #dde4dc;
-  font-family: Arial, Helvetica, sans-serif;
-
-  /*  &::before {
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    position: fixed;
-    background: url('../../../background.jpg') center/cover no-repeat;
-    z-index: -2;
-  } */
 }
 
 ul {
@@ -54,41 +37,6 @@ a {
   color: inherit;
 }
 
-.container {
-  padding: 1rem;
-
-  .container.invisible {
-    opacity: 0.8;
-    background-color: yellow;
-  }
-  /* &::before {
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    position: fixed;
-    background: url('../../../background.jpg') center/cover no-repeat;
-    z-index: -2;
-  } */
-
-  .container-layer {
-    /*  overflow: hidden; */
-
-    /*   &::before {
-      content: '';
-      top: 1rem;
-      left: 1rem;
-      width: calc(100% - 2rem);
-      height: calc(100% - 2rem);
-      position: absolute;
-      position: fixed;
-      border-top-left-radius: 40px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 40px;
-      border-bottom-left-radius: 5px;
-      background: rgba(255, 255, 255, 0.12);
-    } */
-  }
+img {
+  max-width: 100%;
 }
