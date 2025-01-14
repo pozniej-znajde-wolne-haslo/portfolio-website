@@ -1,18 +1,8 @@
-/* import Container from './components/Container/Container';
-
-function App() {
-  return (
-    <>
-      <Container />
-    </>
-  );
-}
-
-export default App; */
-
 import './App.scss';
+import Contact from './components/contact/Contact';
 import Header from './components/header/Header';
-import Hero from './components/Hero/Hero';
+import Hero from './components/hero/Hero';
+import SectionSeparator from './components/sectionSeparator/SectionSeparator';
 
 function App() {
   return (
@@ -20,6 +10,8 @@ function App() {
       <div className="wrapper-content">
         <Header />
         <Hero />
+        <SectionSeparator />
+        <Contact />
       </div>
     </div>
   );
