@@ -10,8 +10,8 @@ export default function Hero() {
             <span>Web</span>
             <span>Developer</span>
           </h1>
-
-          <button>
+          {/* mit js make you go to contact? */}
+          <button type="submit">
             <span>contact</span>
             <span>me</span>
           </button>

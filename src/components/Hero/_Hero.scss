@@ -1,26 +1,30 @@
 /* @use '../../_utilities'; */
 
 .hero-container {
+  height: calc(100vh - 116px);
+  padding: 70px 100px;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   gap: 50px;
-  padding: 70px 100px;
+  /* border: 1px solid red; */
 
   .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    /* bigger gap ?? */
     gap: 50px;
 
     h1 {
-      font-size: 4rem;
+      font-size: 5rem;
       letter-spacing: 2px;
       font-family: 'Bruno Ace', sans-serif;
       background: linear-gradient(#dde4dc, #767474);
       /*  background: linear-gradient(#b2b7b1, #767474); */
       background-clip: text;
       -webkit-text-fill-color: transparent;
+      /*  border: 1px solid red; */
 
       span {
         display: block;
@@ -40,14 +44,14 @@
       padding: 8px 0 13px 0;
       background-color: #a57419;
       font-family: 'Gruppo', sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       font-weight: bold;
       color: #100f0f;
 
       &:hover {
         background-color: #c0871d;
         border-radius: 15px;
-        transition: all 0.5s;
+        transition: all 0.5s ease-out;
       }
 
       span::first-letter {
@@ -57,8 +61,11 @@
   }
 
   .hero-avatar {
+    margin-bottom: 100px;
+    /*  border: 1px solid red; */
+
     .avatar-container {
-      width: 240px;
+      width: 300px;
       border: 1px solid rgba(221, 228, 220, 0.7);
       border-radius: 50%;
 
