@@ -1,3 +1,4 @@
+import { BsArrowUpCircle } from 'react-icons/bs';
 import './_Contact.scss';
 
 export default function Contact() {
@@ -6,6 +7,7 @@ export default function Contact() {
       <h3>contact</h3>
 
       <form id="contact-form">
+        {/* change into useRef ! */}
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
@@ -29,6 +31,10 @@ export default function Contact() {
           <span>me</span>
         </button>
       </form>
+
+      <p className="scroll-up">
+        <BsArrowUpCircle className="arrow-up" />
+      </p>
     </div>
   );
 }

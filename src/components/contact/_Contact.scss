@@ -6,6 +6,7 @@
   gap: 50px;
   /* width: 930px; */
   margin: 50px auto;
+  max-width: 1200px;
   font-family: 'Gruppo', sans-serif;
 
   h3 {
@@ -88,6 +89,23 @@
 
       span::first-letter {
         font-size: 1.9rem;
+      }
+    }
+  }
+  .scroll-up {
+    align-self: flex-end;
+    margin-right: 5rem;
+
+    .arrow-up {
+      font-size: 80px;
+      color: rgba(221, 228, 220, 0.7);
+      border-radius: 50%;
+      transition: all 0.4s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        background-color: #a57419;
+        color: #dde4dc;
       }
     }
   }
