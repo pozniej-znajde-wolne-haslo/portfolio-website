@@ -15,8 +15,12 @@ export default function Footer() {
         >
           <FaGithub className="github" />
         </a>
-        <a href=""></a>
-        <a href="#" target="blank" rel="noreferrer">
+
+        <a
+          href="https://codepen.io/pozniej-znajde-wolne-haslo"
+          target="blank"
+          rel="noreferrer"
+        >
           <PiCodepenLogoLight className="codepen" />
         </a>
       </div>
