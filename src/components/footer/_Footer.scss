@@ -4,15 +4,16 @@ footer {
   align-items: center;
   gap: 3rem;
   height: 80px;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   font-family: 'Gruppo', sans-serif;
   font-size: 1.2rem;
   color: #dde4dc;
 
   .icons-container {
     display: flex;
-    gap: 1.5rem;
+    gap: 3rem;
     align-items: center;
+    line-height: 0.8;
 
     .github {
       font-size: 1.4rem;

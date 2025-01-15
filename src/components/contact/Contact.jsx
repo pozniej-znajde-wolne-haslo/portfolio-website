@@ -4,7 +4,7 @@ import './_Contact.scss';
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h3>contact</h3>
+      <h2>contact</h2>
 
       <form id="contact-form">
         {/* change into useRef ! */}
