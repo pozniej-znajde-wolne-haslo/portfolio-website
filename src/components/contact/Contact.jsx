@@ -32,9 +32,9 @@ export default function Contact() {
         </button>
       </form>
 
-      <p className="scroll-up">
+      <div className="scroll-up">
         <BsArrowUpCircle className="arrow-up" />
-      </p>
+      </div>
     </div>
   );
 }
