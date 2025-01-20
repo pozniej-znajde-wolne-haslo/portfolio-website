@@ -1,8 +1,12 @@
+import { useContext } from 'react';
 import './_Projects.scss';
+import { MainContext } from '../../context/MainContext';
 
 export default function Projects() {
+  const { projectsRef } = useContext(MainContext);
+
   return (
-    <div className="projects-container">
+    <div className="projects-container" ref={projectsRef}>
       <h2>projects</h2>
 
       <div className="projects">

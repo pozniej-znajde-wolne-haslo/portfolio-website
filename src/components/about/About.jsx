@@ -1,8 +1,12 @@
+import { useContext } from 'react';
 import './_About.scss';
+import { MainContext } from '../../context/MainContext';
 
 export default function About() {
+  const { aboutRef } = useContext(MainContext);
+
   return (
-    <div className="about-container">
+    <div className="about-container" ref={aboutRef}>
       <h2>about</h2>
 
       <p>

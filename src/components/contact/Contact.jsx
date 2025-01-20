@@ -1,13 +1,16 @@
 import { BsArrowUpCircle } from 'react-icons/bs';
 import './_Contact.scss';
+import { useContext } from 'react';
+import { MainContext } from '../../context/MainContext';
 
 export default function Contact() {
+  const { contactRef, headerRef, handleScroll } = useContext(MainContext);
+
   return (
-    <div className="contact-container">
+    <div className="contact-container" ref={contactRef}>
       <h2>contact</h2>
 
-      <form id="contact-form">
-        {/* change into useRef ! */}
+      <form>
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
@@ -32,7 +35,7 @@ export default function Contact() {
         </button>
       </form>
 
-      <div className="scroll-up">
+      <div className="scroll-up" onClick={() => handleScroll(headerRef)}>
         <BsArrowUpCircle className="arrow-up" />
       </div>
     </div>
