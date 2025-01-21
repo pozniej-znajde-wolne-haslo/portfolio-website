@@ -23,7 +23,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
+    /*  width: 50%; */
+    width: 80%;
     margin: 10px auto;
     max-width: 600px;
 
@@ -69,6 +70,7 @@
       align-self: center;
       gap: 9px;
       /* width: 50%; */
+      width: 100%;
       border: 0;
       border-radius: 20px;
       box-shadow: 0 2px 10px rgba(43, 42, 42, 0.5);
@@ -82,7 +84,8 @@
       color: #100f0f;
       cursor: pointer;
 
-      &:hover {
+      &:hover,
+      &:active {
         background-color: #c0871d;
         border-radius: 15px;
         transition: all 0.5s ease-out;
@@ -95,7 +98,8 @@
   }
   .scroll-up {
     align-self: flex-end;
-    margin-right: 5rem;
+    /* margin-right: 2.5rem; */
+    margin-top: 30px;
 
     .arrow-up {
       font-size: 80px;
@@ -104,10 +108,23 @@
       transition: all 0.4s ease;
       cursor: pointer;
 
-      &:hover {
+      &:hover,
+      &:active {
         transform: scale(1.05);
         background-color: #a57419;
         color: #dde4dc;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-container {
+    form {
+      width: 50%;
+
+      button {
+        width: 50%;
       }
     }
   }

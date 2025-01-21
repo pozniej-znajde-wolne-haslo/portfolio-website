@@ -3,12 +3,12 @@ import { MainContext } from '../../context/MainContext';
 import PropTypes from 'prop-types';
 import './_modal.scss';
 
-export default function Modal({ toggleModal, isActive }) {
+export default function Modal({ toggleModal, showModal }) {
   const { headerRef, projectsRef, aboutRef, contactRef, handleScroll } =
     useContext(MainContext);
 
   return (
-    <div className={isActive ? 'modal active' : 'modal'}>
+    <div className={showModal ? 'modal active' : 'modal'}>
       <p className="closeBtn" onClick={toggleModal}>
         &times;
       </p>
@@ -45,5 +45,5 @@ export default function Modal({ toggleModal, isActive }) {
 
 Modal.propTypes = {
   toggleModal: PropTypes.func,
-  isActive: PropTypes.bool,
+  showModal: PropTypes.bool,
 };
