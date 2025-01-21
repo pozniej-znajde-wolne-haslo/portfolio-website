@@ -33,11 +33,11 @@ export default function Contact() {
           <span>contact</span>
           <span>me</span>
         </button>
-      </form>
 
-      <div className="scroll-up" onClick={() => handleScroll(headerRef)}>
-        <BsArrowUpCircle className="arrow-up" />
-      </div>
+        <div className="scroll-up" onClick={() => handleScroll(headerRef)}>
+          <BsArrowUpCircle className="arrow-up" />
+        </div>
+      </form>
     </div>
   );
 }

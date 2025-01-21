@@ -7,10 +7,12 @@ import Modal from '../modal/Modal';
 export default function Header() {
   const { headerRef, projectsRef, aboutRef, contactRef, handleScroll } =
     useContext(MainContext);
-  const [isActive, setIsActive] = useState(false);
+  /*  const [isActive, setIsActive] = useState(false); */
+  const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
-    setIsActive(!isActive);
+    /* setIsActive(!isActive); */
+    setShowModal(!showModal);
   };
 
   return (
@@ -38,13 +40,13 @@ export default function Header() {
 
         <div className="mobile-menu">
           <div
-            className={isActive ? 'hamburger active' : 'hamburger'}
+            className={showModal ? 'hamburger active' : 'hamburger'}
             onClick={toggleModal}
           >
             <FaBars size={27} color={'#dde4dc'} />
           </div>
 
-          <Modal toggleModal={toggleModal} isActive={isActive} />
+          <Modal toggleModal={toggleModal} showModal={showModal} />
         </div>
       </nav>
     </header>
