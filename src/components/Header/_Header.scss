@@ -28,28 +28,45 @@ header {
     }
   }
 
-  .navbar {
-    border: 1px solid rgba(221, 228, 220, 0.7);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 3px;
-    padding: 2px 35px 5px 35px;
+  .desktop-menu {
+    display: none;
+  }
 
-    ul {
-      display: flex;
-      gap: 2rem;
-      font-size: 1.2rem;
+  .hamburger.active {
+    opacity: 0;
+  }
+}
 
-      li::first-letter {
-        font-size: 1.5rem;
-      }
+@media screen and (min-width: 768px) {
+  header {
+    .mobile-menu {
+      display: none;
+    }
 
-      a:hover {
-        background: linear-gradient(#dde4dc, #b6b4b4);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        cursor: pointer;
+    .desktop-menu {
+      display: block;
+      border: 1px solid rgba(221, 228, 220, 0.7);
+      border-top-left-radius: 12px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 3px;
+      padding: 2px 35px 5px 35px;
+
+      ul {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.2rem;
+
+        li::first-letter {
+          font-size: 1.5rem;
+        }
+
+        a:hover {
+          background: linear-gradient(#dde4dc, #b6b4b4);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          cursor: pointer;
+        }
       }
     }
   }
