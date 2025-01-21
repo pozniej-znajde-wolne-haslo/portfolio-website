@@ -19,22 +19,24 @@ export default function Modal({ toggleModal, isActive }) {
             onClick={() => {
               handleScroll(headerRef);
             }}
-          ></a>
-          home
+          >
+            home
+          </a>
         </li>
         <li>
           <a
             onClick={() => {
               handleScroll(projectsRef);
             }}
-          ></a>
-          projects
+          >
+            projects
+          </a>
         </li>
         <li>
-          <a onClick={() => handleScroll(aboutRef)}></a>about
+          <a onClick={() => handleScroll(aboutRef)}>about</a>
         </li>
         <li>
-          <a onClick={() => handleScroll(contactRef)}></a>contact
+          <a onClick={() => handleScroll(contactRef)}>contact</a>
         </li>
       </ul>
     </div>
