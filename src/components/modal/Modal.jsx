@@ -3,9 +3,16 @@ import { MainContext } from '../../context/MainContext';
 import PropTypes from 'prop-types';
 import './_modal.scss';
 
-export default function Modal({ toggleModal, showModal }) {
-  const { headerRef, projectsRef, aboutRef, contactRef, handleScroll } =
-    useContext(MainContext);
+export default function Modal() {
+  const {
+    headerRef,
+    projectsRef,
+    aboutRef,
+    contactRef,
+    handleScroll,
+    showModal,
+    toggleModal,
+  } = useContext(MainContext);
 
   return (
     <div className={showModal ? 'modal active' : 'modal'}>
