@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import './_About.scss';
 import { MainContext } from '../../context/MainContext';
+import './_About.scss';
 
 export default function About() {
   const { aboutRef } = useContext(MainContext);
