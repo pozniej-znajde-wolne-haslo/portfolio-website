@@ -25,17 +25,17 @@ export default function About() {
         </p>
 
         <div className="icons-container ">
-          <img src="./html.svg" alt="html" />
-          <img src="./css.svg" alt="css" />
-          <img src="./sass.svg" alt="sass" />
-          <img src="./javascript.svg" alt="javascript" />
-          <img src="./react.svg" alt="react" />
+          <img src="./tech-icons/html.svg" alt="html" />
+          <img src="./tech-icons/css.svg" alt="css" />
+          <img src="./tech-icons/sass.svg" alt="sass" />
+          <img src="./tech-icons/javascript.svg" alt="javascript" />
+          <img src="./tech-icons/react.svg" alt="react" />
         </div>
 
         <div className="icons-container">
-          <img src="./nodejs.svg" alt="nodeJS" />
-          <img src="./express.svg" alt="express" />
-          <img src="./mongodb.png" alt="mongoDB" />
+          <img src="./tech-icons/nodejs.svg" alt="nodeJS" />
+          <img src="./tech-icons/express.svg" alt="express" />
+          <img src="./tech-icons/mongodb.png" alt="mongoDB" />
         </div>
 
         <p>
@@ -44,9 +44,9 @@ export default function About() {
         </p>
 
         <div className="icons-container">
-          <img src="./typescript.svg" alt="typescript" />
-          <img src="./nextjs.svg" alt="nextjs" />
-          <img src="./figma.svg" alt="figma" />
+          <img src="./tech-icons/typescript.svg" alt="typescript" />
+          <img src="./tech-icons/nextjs.svg" alt="nextjs" />
+          <img src="./tech-icons/figma.svg" alt="figma" />
         </div>
 
         <h4>personal</h4>
