@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import './_Projects.scss';
 import { MainContext } from '../../context/MainContext';
+import './_Projects.scss';
 
 export default function Projects() {
   const { projectsRef } = useContext(MainContext);
@@ -11,14 +11,18 @@ export default function Projects() {
 
       <div className="projects">
         <div className="project ">
-          <div className="project-img booksy"></div>
+          <a
+            href="https://booksy-store.onrender.com"
+            target="blank"
+            rel="noreferrer"
+            className="project-img booksy"
+          />
 
           <div className="project-description">
             <h3>Booksy</h3>
             <p>
-              <span>Booksy</span> is an online bookstore. This work was a final
-              project for the web-development training at DCI. It&apos;s built
-              with MERN-Stack.
+              An online bookstore. This work was a final project for the
+              web-development training at DCI. It&apos;s built with MERN-Stack.
             </p>
             <a
               href="https://github.com/pozniej-znajde-wolne-haslo/bookstore_front_and_back"
@@ -31,15 +35,13 @@ export default function Projects() {
         </div>
 
         <div className="project ">
-          <div className="project-img woerterWald"></div>
+          <a className="project-img woerterWald" />
 
           <div className="project-description">
             <h3>WörterWald</h3>
             <p>
-              <span>WörterWald</span> is a fun word game, where you are
-              challneged to find as many words as possible. This project is a
-              collaboration with Max Sommerfeld. It&apos;s built with Next.js
-              and TypeScript.
+              This project is a Spelling Bee clone and a collaboration.
+              It&apos;s built with Next.js and TypeScript.
             </p>
             <a
               href="https://github.com/WoerterWald/woerter_wald"
@@ -52,7 +54,7 @@ export default function Projects() {
         </div>
 
         <div className="project ">
-          <div className="project-img calculator"></div>
+          <a className="project-img calculator" />
 
           <div className="project-description">
             <h3>Mehrwertsteuer-Rechner</h3>
@@ -68,7 +70,7 @@ export default function Projects() {
         </div>
 
         <div className="project ">
-          <div className="project-img calculator"></div>
+          <a className="project-img calculator" />
 
           <div className="project-description">
             <h3>Mehrwertsteuer-Rechner</h3>

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import './_Hero.scss';
 import { MainContext } from '../../context/MainContext';
+import './_Hero.scss';
 
 export default function Hero() {
   const { contactRef, handleScroll } = useContext(MainContext);
@@ -14,7 +14,7 @@ export default function Hero() {
             <span>Web</span>
             <span>Developer</span>
           </h1>
-          {/* mit js make you go to contact? */}
+
           <button onClick={() => handleScroll(contactRef)}>
             <span>contact</span>
             <span>me</span>
