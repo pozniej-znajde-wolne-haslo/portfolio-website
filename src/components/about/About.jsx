@@ -10,18 +10,18 @@ export default function About() {
       <h2>about</h2>
       <div className="about-content">
         <p>
-          I enjoy giving 100% to create appealing designs and translate them to
-          be fully responsive and to look amazing on every device. I always seek
-          new challenges and never stop learning and improving my skills.
+          I&apos;m a Junior Web Developer passionate about crafting fully
+          responsive user interfaces, whether translating professional desings
+          into code or creating my own ones. I always seek new challenges and
+          never stop learning and improving my skills.
         </p>
 
-        <h4>skills</h4>
+        <h4>technical</h4>
         <p>
-          I feel most comfortable being around HTML, CSS, Sass and Javascript.
-          Currently I am learning React.js and looking forward to extend my
-          skills towards the backend (dark) side. For that I&apos;ve got
-          Node.js, Express.js and MongoDB on my list, to eventually build a
-          complete MERN stack.
+          Frontend programming with HTML, CSS, Sass, JavaScript and React.js, is
+          where I feel most comfortable at the moment. My backend toolbox to
+          come up with a complete MERN stack includes Node.js, Express.js and
+          MondoDB.
         </p>
 
         <div className="icons-container ">
@@ -39,7 +39,7 @@ export default function About() {
         </div>
 
         <p>
-          currently I&apos;m learning Typescript and Next.js, and expanding my
+          I&apos;m currently learning Typescript and Next.js, and expanding my
           know-how around Figma.
         </p>
 
@@ -51,13 +51,10 @@ export default function About() {
 
         <h4>personal</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          reiciendis iure, consequatur ab assumenda fugiat repellat quae
-          doloremque odio autem quam aperiam asperiores placeat ipsa nemo earum
-          voluptate necessitatibus tenetur facere eum quisquam sed? Sint
-          deserunt, suscipit quaerat error aut esse blanditiis labore. Enim
-          cumque quidem asperiores magnam ullam, atque quo, laboriosam
-          voluptatem labore totam,
+          I grew up in Poland, but moved to Germany many years ago. Since a very
+          young age, I&apos;ve been interested in languages and linguistics,
+          which led me to study English Philology and later on to programming.
+          Dancing and climbing are my places to go in the spare time.
         </p>
       </div>
     </div>
