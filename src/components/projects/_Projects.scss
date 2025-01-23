@@ -25,63 +25,6 @@
     grid-template-columns: 335px;
     gap: 2.5rem;
     justify-content: center;
-
-    /* change class name */
-    .project {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      border-radius: 10px;
-      background-color: rgba(21, 21, 21, 0.4);
-      box-shadow:
-        2px 3px 8px rgba(97, 96, 96, 0.5),
-        -2px -3px 8px rgba(97, 96, 96, 0.5);
-
-      .project-img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
-
-      .booksy {
-        height: 50%;
-        background: url('./projects-img/booksy.png') no-repeat top/cover;
-      }
-
-      .woerterWald {
-        height: 50%;
-        background: url('./projects-img/woerterWald.png') no-repeat top/cover;
-      }
-
-      .calculator {
-        height: 50%;
-        background: url('./projects-img/vat.png') no-repeat top/cover;
-      }
-
-      .project-description {
-        display: grid;
-        grid-template-rows: 1fr 2fr 1fr;
-        padding: 0 1rem;
-
-        h3 {
-          color: #c0871d;
-          margin: 10px auto;
-          font-family: 'Gruppo', sans-serif;
-          font-size: 1.6rem;
-          font-weight: 400;
-        }
-
-        p {
-          font-size: 0.9rem;
-          /* font-weight: 100; */
-        }
-
-        a {
-          color: #c0871d;
-          font-size: 0.9rem;
-          margin-top: 10px;
-        }
-      }
-    }
   }
 }
 
