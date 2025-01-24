@@ -32,12 +32,13 @@ export default function Projects() {
         </ProjectCard>
 
         <ProjectCard
-          url="https://github.com/pozniej-znajde-wolne-haslo/MwSt.-Rechner_Tailwind"
-          img="./projects-img/vat.png"
+          url="https://github.com/pozniej-znajde-wolne-haslo/js_kalorien-rechner"
+          img="./projects-img/kcal.png"
           title="Mehrwertsteuer-Rechner"
-          pen="https://codepen.io/pozniej-znajde-wolne-haslo/pen/BaeZOQL"
+          pen="https://codepen.io/pozniej-znajde-wolne-haslo/pen/emOPGLO"
         >
-          This VAT calculator uses JavaScript to make your life easier
+          A tool to calculate your recommended kcal-intake depending on your
+          average physical activity. It uses Vanilla JavaScript and Sass.
         </ProjectCard>
 
         <ProjectCard

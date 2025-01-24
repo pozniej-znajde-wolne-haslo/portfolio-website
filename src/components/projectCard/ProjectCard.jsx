@@ -6,7 +6,7 @@ export default function ProjectCard({ url, img, title, children, repo, pen }) {
     <div className="card-container">
       <div className="img-container">
         <a href={url} target="blank" rel="noreferrer">
-          <img src={img} alt="" />
+          <img src={img} alt="screenshot of the project" />
         </a>
       </div>
 

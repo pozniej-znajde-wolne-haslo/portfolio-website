@@ -29,35 +29,6 @@
         display: block;
       }
     }
-
-    button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 9px;
-      width: 100%;
-      border: 0;
-      border-radius: 20px;
-      box-shadow: 0 2px 10px rgba(43, 42, 42, 0.5);
-      padding: 8px 0 13px 0;
-      background-color: #a57419;
-      font-family: 'Gruppo', sans-serif;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #100f0f;
-      cursor: pointer;
-
-      &:hover,
-      &:active {
-        background-color: #c0871d;
-        border-radius: 15px;
-        transition: all 0.5s ease-out;
-      }
-
-      span::first-letter {
-        font-size: 1.9rem;
-      }
-    }
   }
 
   .hero-avatar {
@@ -129,11 +100,6 @@
     .hero-text {
       h1 {
         font-size: 5rem;
-      }
-
-      button {
-        align-self: flex-end;
-        width: 50%;
       }
     }
 
