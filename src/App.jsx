@@ -1,11 +1,11 @@
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Projects from './components/projects/Projects';
+import SectionSeparator from './components/sectionSeparator/SectionSeparator';
 import './App.scss';
-import About from './components/about/About.jsx';
-import Contact from './components/contact/Contact.jsx';
-import Footer from './components/footer/Footer.jsx';
-import Header from './components/header/Header.jsx';
-import Hero from './components/hero/Hero.jsx';
-import Projects from './components/projects/Projects.jsx';
-import SectionSeparator from './components/sectionSeparator/SectionSeparator.jsx';
 
 function App() {
   return (
