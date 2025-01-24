@@ -1,7 +1,6 @@
-import './_Footer.scss';
-
 import { FaGithub } from 'react-icons/fa';
 import { PiCodepenLogoLight } from 'react-icons/pi';
+import './_Footer.scss';
 
 export default function Footer() {
   return (

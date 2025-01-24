@@ -1,5 +1,7 @@
+@use '../../utilities' as *;
+
 .separator {
   width: 83%;
-  margin: 20px 0 20px auto;
-  border-top: 1px solid rgba(221, 228, 220, 0.7);
+  margin: 100px 0 50px auto;
+  border-top: $primary-border;
 }

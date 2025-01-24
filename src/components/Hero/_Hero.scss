@@ -1,4 +1,4 @@
-/* @use '../../_utilities'; */
+@use '../../utilities' as *;
 
 .hero-container {
   height: calc(100vh - 120px);
@@ -19,11 +19,9 @@
 
     h1 {
       font-size: 2.6rem;
-      font-family: 'Bruno Ace', sans-serif;
+      font-family: $font-heading;
       line-height: 1.4;
-      background: linear-gradient(#dde4dc, #767474);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+      @include gradientTextColor($text-color-white, #767474);
 
       span {
         display: block;
@@ -34,7 +32,7 @@
   .hero-avatar {
     .avatar-container {
       width: 240px;
-      border: 1px solid rgba(221, 228, 220, 0.7);
+      border: $primary-border;
       border-radius: 50%;
       animation: rotateAvatar 3s cubic-bezier(0.25, 0.1, 0.25, 1.5);
 
@@ -46,21 +44,12 @@
 }
 
 @keyframes rotateAvatar {
-  /* 0% {
-    transform: rotateY(0deg) rotateX(0deg);
-  } */
-
   50% {
     transform: rotateZ(220deg) rotateX(180deg);
   }
-
-  /*  100% {
-    transform: rotateY(360deg) rotateX(360deg);
-  } */
 }
 
 /* extra small mobiles */
-/*  or very short apply here? */
 @media screen and (max-width: 375px) {
   .hero-container {
     padding-bottom: 10px;

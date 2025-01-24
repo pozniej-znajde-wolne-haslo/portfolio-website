@@ -1,22 +1,13 @@
+@use '../../utilities' as *;
+
 .projects-container {
-  margin: 50px auto;
-  font-family: 'Lexend Tera', sans-serif;
+  margin: $section-margin;
+  font-family: $secondary-font;
   font-weight: 200;
 
   h2 {
-    /* font-family other - the thin one?? 
-    mix-in for H3*/
-    font-family: 'Gruppo', sans-serif;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 200;
-    background: linear-gradient(#dde4dc, #a6a4a4);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    text-align: center;
-    /* add margin top/bottom to all H3 as variable ?  */
-    margin-bottom: 100px;
+    @extend .h2-styles;
+    margin-bottom: 50px;
   }
 
   .projects {
@@ -25,6 +16,10 @@
     grid-template-columns: 335px;
     gap: 2.5rem;
     justify-content: center;
+
+    span {
+      color: $text-color-ochre;
+    }
   }
 }
 

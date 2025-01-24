@@ -1,8 +1,8 @@
-import { useContext /* useState */ } from 'react';
+import { useContext } from 'react';
 import { MainContext } from '../../context/MainContext';
 import { FaBars } from 'react-icons/fa6';
-import './_Header.scss';
 import Modal from '../modal/Modal';
+import './_Header.scss';
 
 export default function Header() {
   const {
@@ -22,7 +22,6 @@ export default function Header() {
         <span>rafeld</span>
       </div>
       <nav className="navbar">
-        {/* main menu */}
         <div className="desktop-menu">
           <ul className="desktop-links">
             <li>
@@ -36,7 +35,6 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        {/* mobile menu */}
 
         <div className="mobile-menu">
           <div

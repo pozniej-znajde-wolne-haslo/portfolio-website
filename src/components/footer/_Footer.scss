@@ -1,26 +1,27 @@
+@use '../../utilities' as *;
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   height: 80px;
-  /* padding-right: 1rem; */
-  font-family: 'Gruppo', sans-serif;
-  font-size: 1.2rem;
-  color: #dde4dc;
+  font-family: $primary-font;
+  font-size: $font-m;
+  color: $text-color-white;
 
   .icons-container {
     display: flex;
     gap: 3rem;
     align-items: center;
-    line-height: 0.8;
+    line-height: 0.7;
 
     .github {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
 
     .codepen {
-      font-size: 1.7rem;
+      font-size: 2rem;
     }
   }
 }

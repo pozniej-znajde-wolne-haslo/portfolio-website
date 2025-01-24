@@ -36,20 +36,20 @@
     padding: 0 1rem;
 
     h3 {
-      color: #c0871d;
+      color: $text-color-ochre;
       margin: 15px auto;
-      font-family: 'Gruppo', sans-serif;
+      font-family: $primary-font;
       font-size: 1.6rem;
       font-weight: 400;
     }
 
     p {
       font-size: 0.9rem;
-      /* font-weight: 100; */
+      /*  font-weight: 100; */
     }
 
     .link {
-      color: #c0871d;
+      color: $text-color-ochre;
       font-size: 0.9rem;
       margin-top: 10px;
     }

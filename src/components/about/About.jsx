@@ -28,7 +28,7 @@ export default function About() {
           <img src="./tech-icons/html.svg" alt="html" />
           <img src="./tech-icons/css.svg" alt="css" />
           <img src="./tech-icons/sass.svg" alt="sass" />
-          <img src="./tech-icons/javascript.svg" alt="javascript" />
+          <img src="./tech-icons/javascript1.svg" alt="javascript" />
           <img src="./tech-icons/react.svg" alt="react" />
         </div>
 

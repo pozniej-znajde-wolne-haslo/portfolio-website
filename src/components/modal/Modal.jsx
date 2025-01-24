@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import { MainContext } from '../../context/MainContext';
-import PropTypes from 'prop-types';
 import './_modal.scss';
 
 export default function Modal() {
@@ -22,22 +21,10 @@ export default function Modal() {
 
       <ul className="mobile-links" onClick={toggleModal}>
         <li>
-          <a
-            onClick={() => {
-              handleScroll(headerRef);
-            }}
-          >
-            home
-          </a>
+          <a onClick={() => handleScroll(headerRef)}>home</a>
         </li>
         <li>
-          <a
-            onClick={() => {
-              handleScroll(projectsRef);
-            }}
-          >
-            projects
-          </a>
+          <a onClick={() => handleScroll(projectsRef)}>projects</a>
         </li>
         <li>
           <a onClick={() => handleScroll(aboutRef)}>about</a>
@@ -49,8 +36,3 @@ export default function Modal() {
     </div>
   );
 }
-
-Modal.propTypes = {
-  toggleModal: PropTypes.func,
-  showModal: PropTypes.bool,
-};

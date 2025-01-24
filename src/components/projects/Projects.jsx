@@ -13,27 +13,28 @@ export default function Projects() {
       <div className="projects">
         <ProjectCard
           url="https://booksy-store.onrender.com"
-          img="./projects-img/booksy.png"
+          img="./projects-img/booksy.webp"
           title="Booksy"
           repo="https://github.com/pozniej-znajde-wolne-haslo/bookstore_front_and_back"
         >
-          An online bookstore. This work was a final project for the
+          An online bookstore. This website was a final project for the
           web-development training at DCI. It&apos;s built with MERN-Stack.
         </ProjectCard>
 
         <ProjectCard
           url="https://github.com/WoerterWald/woerter_wald"
-          img="./projects-img/woerterWald.png"
+          img="./projects-img/woerterwald.webp"
           title="WörterWald"
           repo="https://github.com/WoerterWald/woerter_wald"
         >
-          This project is a Spelling Bee clone and a collaboration. It&apos;s
-          built with Next.js and TypeScript.
+          <span>&#x28;work in progress&#x29;</span> This project is a Spelling
+          Bee clone and a collaboration. It&apos;s built with Next.js and
+          TypeScript.
         </ProjectCard>
 
         <ProjectCard
           url="https://github.com/pozniej-znajde-wolne-haslo/js_kalorien-rechner"
-          img="./projects-img/kcal.png"
+          img="./projects-img/kcal-calculator.webp"
           title="Mehrwertsteuer-Rechner"
           pen="https://codepen.io/pozniej-znajde-wolne-haslo/pen/emOPGLO"
         >
@@ -43,11 +44,13 @@ export default function Projects() {
 
         <ProjectCard
           url="https://github.com/pozniej-znajde-wolne-haslo/MwSt.-Rechner_Tailwind"
-          img="./projects-img/vat.png"
+          img="./projects-img/vat-calculator.webp"
           title="Mehrwertsteuer-Rechner"
           pen="https://codepen.io/pozniej-znajde-wolne-haslo/pen/BaeZOQL"
         >
-          This VAT calculator uses JavaScript to make your life easier
+          Designed to calculate VAT &#x28;Valued Added Tax&#x29;. It uses
+          Vanilla JavaScript and DOM-Manipulation to implement its
+          functionalities, and Tailwind for the styles.
         </ProjectCard>
       </div>
     </div>

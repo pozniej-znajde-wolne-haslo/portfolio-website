@@ -1,23 +1,4 @@
-@font-face {
-  font-family: 'Bruno Ace';
-  src: url('./assets/fonts/Bruno_Ace/BrunoAce-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gruppo';
-  src: url('./assets/fonts/Gruppo/Gruppo-Regular.ttf');
-  font-weight: normal;
-  /* font-style: normal; */
-}
-
-@font-face {
-  font-family: 'Lexend Tera';
-  src: url('./assets/fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf');
-  /* font-weight: normal; */
-  font-style: normal;
-}
+@use './utilities' as *;
 
 *,
 *::before,
@@ -31,11 +12,8 @@ html,
 body {
   scroll-behavior: smooth;
   scrollbar-width: none;
-  /* different color now? */
-  color: #dde4dc;
+  color: $text-color-white;
   line-height: 1.6;
-  /*   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 ul {
