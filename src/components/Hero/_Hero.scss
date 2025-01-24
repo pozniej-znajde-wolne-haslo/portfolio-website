@@ -1,7 +1,7 @@
 @use '../../utilities' as *;
 
 .hero-container {
-  height: calc(100vh - 120px);
+  height: calc(100dvh - 120px);
   padding-bottom: 30px;
   display: flex;
   flex-direction: column-reverse;
@@ -81,7 +81,7 @@
 
 @media screen and (min-width: 992px) {
   .hero-container {
-    height: calc(100vh - 120px);
+    height: calc(100dvh - 120px);
     padding: 70px 100px;
     flex-direction: row;
     justify-content: space-around;

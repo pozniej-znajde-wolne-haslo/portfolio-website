@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="contact-container" ref={contactRef}>
       <h2>contact</h2>
 
-      <form>
+      <form name="contact" data-netlify="true">
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
