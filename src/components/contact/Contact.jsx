@@ -1,7 +1,8 @@
 import { BsArrowUpCircle } from 'react-icons/bs';
-import './_Contact.scss';
 import { useContext } from 'react';
 import { MainContext } from '../../context/MainContext';
+import Button from '../button/Button';
+import './_Contact.scss';
 
 export default function Contact() {
   const { contactRef, headerRef, handleScroll } = useContext(MainContext);
@@ -28,11 +29,8 @@ export default function Contact() {
             rows="15"
           ></textarea>
         </div>
-        {/* make a comp out of it (same in Hero) */}
-        <button type="submit">
-          <span>contact</span>
-          <span>me</span>
-        </button>
+
+        <Button style="contact-btn" type="submit" />
 
         <div className="scroll-up" onClick={() => handleScroll(headerRef)}>
           <BsArrowUpCircle className="arrow-up" />

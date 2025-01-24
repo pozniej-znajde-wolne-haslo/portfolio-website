@@ -1,10 +1,7 @@
-import { useContext } from 'react';
-import { MainContext } from '../../context/MainContext';
+import Button from '../button/Button';
 import './_Hero.scss';
 
 export default function Hero() {
-  const { contactRef, handleScroll } = useContext(MainContext);
-
   return (
     <>
       <div className="hero-container ">
@@ -15,10 +12,7 @@ export default function Hero() {
             <span>Developer</span>
           </h1>
 
-          <button onClick={() => handleScroll(contactRef)}>
-            <span>contact</span>
-            <span>me</span>
-          </button>
+          <Button style="hero-btn" />
         </div>
 
         <div className="hero-avatar">
