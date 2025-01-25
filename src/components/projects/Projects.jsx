@@ -35,7 +35,7 @@ export default function Projects() {
         <ProjectCard
           url="https://github.com/pozniej-znajde-wolne-haslo/js_kalorien-rechner"
           img="./projects-img/kcal-calculator.webp"
-          title="Mehrwertsteuer-Rechner"
+          title="Kalorien-Rechner"
           pen="https://codepen.io/pozniej-znajde-wolne-haslo/pen/emOPGLO"
         >
           A tool to calculate your recommended kcal-intake depending on your
