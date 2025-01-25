@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { MainContext } from '../../context/MainContext';
-import './_modal.scss';
+import './_Modal.scss';
 
 export default function Modal() {
   const {
