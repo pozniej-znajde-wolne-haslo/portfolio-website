@@ -52,9 +52,12 @@ export default function Contact() {
         toast.success('Thank you!');
         setSubmitSuccess(!submitSuccess);
         setTimeout(() => setSubmitSuccess(false), 2000);
+        /* e.target.reset() doesn't work ?? */
+        setFormValues({ name: '', email: '', message: '' });
       } catch (error) {
         toast.error('Sorry, something went wrong');
         console.error(error.message);
+        setFormValues({ name: '', email: '', message: '' });
       }
     } else {
       toast.error('Please enter a correct email-adress.');
@@ -63,7 +66,7 @@ export default function Contact() {
 
   return (
     <>
-      <Toaster position="top-center" />
+      <Toaster position="center" />
       <div className="contact-container" ref={contactRef}>
         <h2>contact</h2>
 

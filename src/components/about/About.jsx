@@ -13,7 +13,7 @@ export default function About() {
           I&apos;m a Junior Web Developer passionate about crafting fully
           responsive user interfaces, whether translating professional desings
           into code or creating my own ones. I always seek new challenges and
-          never stop learning and improving my skills.
+          continue learning and improving my skills.
         </p>
 
         <h4>technical</h4>
